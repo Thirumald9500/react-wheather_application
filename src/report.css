@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #DDE5F4;
+}
+.container{
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12);
+    margin-top: 6rem;
+    width: 500px;
+    height: 600px;
+    background-color: #F1F7FE;
+    border-radius: 50px;
+    box-sizing: border-box;
+}
+#heading{
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    /* background-color: antiquewhite; */
+}
+.weather{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    align-items: center;
+    height: 100px;
+}
+#cloud2{
+    width: 120px;
+}
+.weathercity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.weather_info{
+    height: 180px;
+}
+#weather_info{
+    margin-left: 20px;
+    padding: 10px;
+}
+.weather_details{
+    height: 140px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+#icon{
+    width: 40px;
+    height: 60px;
+}
+
+.wheather1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+.wheather2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
